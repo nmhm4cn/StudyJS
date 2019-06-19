@@ -1,0 +1,70 @@
+body {
+  font-size: 16px;
+  font-family: Vardana, sans-serif;
+  color: gray;
+}
+.container {
+  width: 800px;
+  margin: auto;
+}
+#app h1 {
+  font-size: 1rem;
+  border-bottom: 1px dotted #dddddd;
+  padding: 1rem 0;
+}
+#app ul {
+  list-style: none;
+  padding-left: 0;
+}
+#app li {
+  line-height: 1.5;
+}
+#app input[type="text"] {
+  padding: 3px;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+}
+#app button.delete-btn {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  vertical-align: middle;
+  color: gray;
+}
+#app button.delete-btn:hover {
+  background-color: #eee;
+}
+#app button.btn {
+  background-color: #f5c7f7;
+  border-radius: 5px;
+  border: 1px solid #f5c7f7;
+  cursor: pointer;
+  vertical-align: middle;
+  color: gray;
+}
+#app button.btn:hover {
+  background-color: #fcddfd;
+  border: 1px solid #fcddfd;
+}
+
+#app li > span.done {
+  text-decoration: line-through;
+  color: #bbb;
+}
+
+#app span.info {
+  color: #bbb;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+#app button.parge-btn {
+  float: right;
+}
+
+#app li.warning-msg {
+  text-align: center;
+  font-weight: normal;
+}
